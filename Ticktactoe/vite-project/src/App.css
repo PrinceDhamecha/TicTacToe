@@ -1,0 +1,34 @@
+*{
+    background-color: black;
+    color: white;
+    /* font-size: 3rem; */
+}
+
+.square{
+    border: red solid 2px;
+    height: 12rem;
+    width: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10vw;
+
+}
+
+.Board-Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#btnrest{
+    height: 80px;
+    color: rgb(250, 250, 250);
+    background-color: rgb(26, 12, 151);
+    border: beige solid 2px;
+    margin: 25px;
+    font-size: larger;
+    border-radius: 30px;
+}
